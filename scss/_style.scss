@@ -396,3 +396,30 @@ footer {
     }
   }
 }
+@media (max-width: 770px) {
+  .Unsere .itemWrapp {
+    display: block;
+  }
+  .Unsere .itemWrapp {
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 30px;
+  }
+  .Unsere .w-50 {
+    width: 100%;
+  }
+  .Unsere .flex {
+    display: block;
+  }
+  .Unsere .menu-item .line {
+    display: none;
+  }
+  .event .box ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    li {
+      justify-content: center;
+    }
+  }
+}
